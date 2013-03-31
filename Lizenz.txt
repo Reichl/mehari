@@ -1,0 +1,3 @@
+Diese Software ist unter der GPL Version 3.0 lizensiert. Sie sollten eine Kopie dieser Lizenz erhalten haben. Sie ist ebenfalls unter http://www.gnu.org/licenses/gpl-3.0.txt einsehbar.
+
+Durch Verwedung der Software wird der Lizenz zugestimmt, und auf alle möglichen Schadensersatzansprüche für Schäden, die durch die Software verursacht werden, verzichtet.
