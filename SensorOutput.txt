@@ -1,0 +1,41 @@
+I2C-Drucksensor:
+
+root@beaglebone:~# cat /sys/bus/i2c/devices/1-0077/pressure0_input
+95268
+d.h. 952,68 mBar, hPa
+root@beaglebone:~# cat /sys/bus/i2c/devices/1-0077/temperature0_input
+217
+d.h. 21,7°C
+
+SPI-Thermoelement:
+
+root@beaglebone:~# ./spidev-max31855 /dev/spidev1.0
+Thermocouple temperature: 14.25 degrees Celsius
+Reference junction temperature: 18.0000 degrees Celsius
+
+A/D-Wandler:
+
+in Digits (12bit, 0-4095):
+root@beaglebone:~# cat /sys/bus/iio/devices/iio:device0/in_voltage*
+4094
+3270
+2086
+1250
+1224
+1486
+1578
+3832
+
+in mV (0-1799, VRef=1,8V):
+root@beaglebone:~# cat /sys/devices/ocp.2/helper.12/AIN*
+1799
+1443
+927
+551
+528
+646
+649
+1683
+
+
+
