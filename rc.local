@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+#One Wire auf P9.11
+echo w1 > /sys/devices/bone_capemgr.9/slots
+#SPI-Busse
+echo BB-SPI0CS1 > /sys/devices/bone_capemgr.9/slots
+echo BB-SPI1CS2 > /sys/devices/bone_capemgr.9/slots
+# A/D-Wandler (8-Kanal) auf BBB:
+echo cape-bone-iio > /sys/devices/bone_capemgr.9/slots

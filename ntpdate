@@ -1,0 +1,8 @@
+#/etc/default/ntpdate
+# Configuration script used by ntpdate-sync script
+
+NTPSERVERS="pool.ntp.org"
+
+# Set to "yes" to write time to hardware clock on success
+UPDATE_HWCLOCK="yes"
+
