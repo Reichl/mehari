@@ -1,3 +1,6 @@
 mehari
 ======
-First trial set up git.
+Files for Beaglebone Black (BBB).
+One-Wire
+I2C
+SPI
