@@ -1,4 +1,8 @@
 /*
+This runs at Beaglebone Black (BBB), too.
+Use your own defined I2C-Pins on BBB and 3V3 VDD.
+Markus Reichl
+
 Raspberry Pi Bosch BMP085 communication code.
 By:      John Burns (www.john.geek.nz)
 Date:    13 February 2013

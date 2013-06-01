@@ -9,3 +9,6 @@ echo BB-SPI0CS1 > /sys/devices/bone_capemgr.9/slots
 echo BB-SPI1CS2 > /sys/devices/bone_capemgr.9/slots
 # A/D-Wandler (8-Kanal) auf BBB:
 echo cape-bone-iio > /sys/devices/bone_capemgr.9/slots
+# 2 serielle Schnittstellen:
+echo BB-UART4 > /sys/devices/bone_capemgr.9/slots
+echo BB-UART5 > /sys/devices/bone_capemgr.9/slots
