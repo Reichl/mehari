@@ -1,0 +1,3 @@
+#optargs=quiet drm.debug=7
+# Bin headless (ohne Monitor), deshalb HDMI abschalten, gibt P9.31 fuer SPI1-Bus frei.
+optargs=quiet capemgr.disable_partno=BB-BONELT-HDMI
