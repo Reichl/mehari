@@ -2,7 +2,7 @@
 #
 # /etc/rc.local: Local multi-user startup script.
 #
-#One Wire auf P9.11
+#One Wire auf P8.11
 echo w1 > /sys/devices/bone_capemgr.9/slots
 #SPI-Busse
 echo BB-SPI0CS1 > /sys/devices/bone_capemgr.9/slots
